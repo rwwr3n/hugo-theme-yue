@@ -1,7 +1,6 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ partial "single/author.html" . }}
-  {{ partial "main/dates.html" . }}
   {{ partial "single/translation_list.html" . }}
   {{ partial "single/toc.html" . }}
   {{ .Content }}
